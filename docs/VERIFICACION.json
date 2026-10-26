@@ -1,0 +1,66 @@
+{
+  "fecha": "2026-10-16",
+  "origen": "https://github.com/ExorM42/CultoChamanTCGFullStack",
+  "base_commit": "cef49f0",
+  "estado": "Cambios locales, no publicados en GitHub",
+  "tests": {
+    "herramientas": [
+      "Jasmine 5.12.0",
+      "Karma 6.4.4",
+      "Chrome Headless 155"
+    ],
+    "ejecutadas": 22,
+    "aprobadas": 22,
+    "fallidas": 0
+  },
+  "cobertura": {
+    "lines": {
+      "total": 191,
+      "covered": 184,
+      "skipped": 0,
+      "pct": 96.33
+    },
+    "statements": {
+      "total": 223,
+      "covered": 214,
+      "skipped": 0,
+      "pct": 95.96
+    },
+    "functions": {
+      "total": 74,
+      "covered": 71,
+      "skipped": 0,
+      "pct": 95.94
+    },
+    "branches": {
+      "total": 125,
+      "covered": 121,
+      "skipped": 0,
+      "pct": 96.8
+    },
+    "branchesTrue": {
+      "total": 0,
+      "covered": 0,
+      "skipped": 0,
+      "pct": 100
+    }
+  },
+  "compilacion": "npm run build completado",
+  "navegador": {
+    "anchos": [
+      1440,
+      390
+    ],
+    "desbordamiento_horizontal": false,
+    "errores_javascript": [],
+    "flujos": [
+      "catalogo-carrito-cupon-compra",
+      "registro-login"
+    ]
+  },
+  "audit": {
+    "produccion": 0,
+    "avisos_desarrollo_altos": 4
+  },
+  "instrucciones": "Descomprimir, entrar a la carpeta del proyecto, ejecutar npm ci y npm run dev. Ver README.md y docs/."
+}
